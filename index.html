@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<body>
+    <h1 class="p-2">Snake Game</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <h2>How to play:</h2>
+                <img class="img-fluid" src="images/arrows.png" alt="How to play">
+                <ul class="list">
+                    <li><b>you can move right, left, up and down</b></li>
+                    <li><b>eat red apples to earn points</b></li>
+                    <li><b>sounds included :)</b></li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <canvas id="board"></canvas>
+            </div>
+            <div class="col-sm">
+                <p id="scoreText"><b>Your score: </b></p>
+                <p id="highScoreText"><b>Your high score: </b></p>
+                <p id="sign">GAME OVER</p>
+                <button id="playButton"><b>PLAY AGAIN</b></button>
+                
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="script/script.js"></script>
+</body>
+
+
+
+</html>
