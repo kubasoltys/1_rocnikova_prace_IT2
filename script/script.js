@@ -59,7 +59,7 @@ window.onload = function() { //po nacteni cele stranky
 
     randomFood();
     document.addEventListener("keyup", changeDirection);
-    setInterval(update, 1000/8) //funkce update je volana kazdych 117,6 milisekund
+    setInterval(update, 1000/6) //funkce update je volana kazdych 166 milisekund
 }
 
 
